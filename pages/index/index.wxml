@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- <view class='header'>豆瓣250TOP</view>
+<block wx:for="{{arr}}">
+  <navigator url='../detail/detail?id={{item.id}}'>
+    <view class='wrap'>
+      <image class='small' src='{{item.images.small}}'></image>
+      <view class='right'>
+        <view class='title'>{{item.title}}</view>
+        <view class='rating'>{{item.rating.average}}</view>
+        <view class='grey'>{{item.original_title}}({{item.year}})</view>
+        <view class='actor'>{{item.directors[0].name}}</view>
+      </view>
+    </view>
+  </navigator>
+</block> -->
+
+<block wx:for="{{arr}}">
+  <navigator url='../detail/detail?id={{item.id}}'>
+    <view class='wrap'>
+      <image class='small' src='{{item.picUrl}}'></image>
+      <view class='right'>
+        <view class='title'>{{item.topTitle}}</view>
+        <view class='rating'>{{item.listenCount}}</view>
+        <!-- <view class='actor'>{{item.songList[0].songname}}</view> -->
+      </view>
+    </view>
+  </navigator>
+</block>

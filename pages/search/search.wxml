@@ -1,0 +1,15 @@
+<!--pages/search/search.wxml-->
+<input placeholder='请输入关键字' bindchange="setSearch"></input>
+<block wx:for="{{obj}}">
+  <navigator url='../detail/detail?id={{item.id}}'>
+    <view class='wrap'>
+      <image class='small' src='{{item.images.small}}'></image>
+      <view class='right'>
+        <view class='title'>{{item.title}}</view>
+        <view class='rating'>{{item.rating.average}}</view>
+        <view class='grey'>{{item.original_title}}({{item.year}})</view>
+        <view class='actor'>{{item.directors[0].name}}</view>
+      </view>
+    </view>
+  </navigator>
+</block>

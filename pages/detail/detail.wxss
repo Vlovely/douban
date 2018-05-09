@@ -1,0 +1,31 @@
+/* pages/detail/detail.wxss */
+.wrap{
+  width: 80%;
+  margin: 0 auto
+}
+.large{
+  display: block;
+  width: 600rpx;
+  height: 800rpx;
+  margin: 0 auto;
+}
+.title{
+  text-align: center;
+  font-size: 42rpx;
+  color: #666;
+  line-height: 100rpx;
+}
+.word{
+  font-size: 20rpx;
+  color: #666;
+  line-height: 60rpx;
+}
+.main{
+  margin-top: 40rpx;
+  margin-bottom: 20rpx
+}
+.content{
+  font-size: 24rpx; 
+  line-height: 60rpx;
+  color: #666;
+}

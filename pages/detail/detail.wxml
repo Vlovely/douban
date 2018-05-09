@@ -1,0 +1,16 @@
+<!--pages/detail/detail.wxml-->
+
+<!-- <view class='wrap'>
+  <image class='large' src='{{obj.images.large}}'></image>
+  <view class='title'>{{obj.title}}({{obj.year}})</view>
+  <view class='word'>评分：{{obj.rating.average}}</view>
+  <view class='word'>导演：{{obj.directors[0].name}}</view>
+  <text class='word'>主演：</text> 
+  <block wx:for="{{obj.casts}}">
+    <text class='word'>{{item.name}} </text>
+  </block>
+  <view class='main'>摘要：</view>
+  <view class='content'>{{obj.summary}}</view>
+</view> -->
+<block wx:for='{{obj}}'>
+<view>{{item.data.songname}}</view></block>

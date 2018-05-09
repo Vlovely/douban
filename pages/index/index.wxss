@@ -1,0 +1,46 @@
+  /* *index.wxss* */
+ .header{
+  font-size: 48rpx;
+  color: #999;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.wrap{
+  height: 190rpx;
+  margin-top: 30rpx;
+  border-bottom: 1px solid #ccc;
+}
+.small{
+  width: 160rpx;
+  height: 160rpx; 
+   float: left;
+  margin:0rpx 30rpx 0 30rpx;
+}
+.right{
+  margin-left: 20rpx;
+  overflow: hidden
+}
+.rating{
+  float: right;
+  margin-right: 30rpx;
+  font-size: 30rpx;
+  color: #ff0000;
+  font-weight: 700
+}
+.title{
+  float: left;
+   font-size: 30rpx 
+}
+.grey{
+  font-size: 24rpx;
+  color: #aaa;
+  margin-top: 60rpx;
+  margin-bottom: 20rpx;
+}
+.actor{
+  font-size: 28rpx;
+  color: #999;
+  margin-top: 30rpx;
+}   
